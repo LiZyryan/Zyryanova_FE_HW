@@ -40,3 +40,112 @@ button {
   width: 18px;
   height: 18px;
 }
+
+.gslogo {
+width: 20px;
+height: 20px; 
+}
+ 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 50px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+
+.gslogo {
+  height: 50px;
+  width: auto;
+}
+
+
+
+nav {
+  display: flex;
+  align-items: center;
+  flex: 1;                 
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;          
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  padding-bottom: 6px;
+}
+
+.menu li a.active {
+  font-weight: 600;
+  color: #000;
+  position: relative;
+  text-decoration-line: underline;
+  text-decoration-color: green;
+}
+
+
+.login-btn button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: #46a358;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.b_login {
+  width: 18px;
+  height: 18px;
+}
+
+
+.section {
+    display: flex;
+    align-items: center; 
+    padding: 50px;
+    gap: 50px;
+}
+
+.mtext {
+    flex: 1;
+    text-align: left;
+}
+
+.mpic {
+    flex: 1;
+    position: relative; 
+}
+
+.plant2 {
+    width: 300px; 
+    display: block;
+}
+
+.plant1 {
+    width: 100px; 
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+
+}
+.shop-btn {
+    width: 140px;   
+    height: 40px;  
+    font-size: 16px; 
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
